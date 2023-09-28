@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.hero{
+    height: 570px;
+    width: 100%;
+    background-image: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-w{
+    color: white;
+}
+
+.text-b{
+    color: black;
+    margin-bottom: 5px;
+    margin-left: 8px;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.nav{
+    height: 80px;
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 140px;
+    font-size: 34px;
+}
+
+.container{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.centerbox{
+    margin-top: 25px;
+    font-size: 35px;
+}
+
+.fi-ss-marker{
+    color: red;
+    font-size: 22px;
+    margin-top: 2px;
+}
+
+.search{
+    margin-top: 23px;
+    height: 50px;
+    width: 700px;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.city{
+    height: 34px;
+    width: 200px;
+    margin-left: 5px;
+    border: none;
+}
+
+.city:focus{
+    outline: none;
+}
+
+.fi-bs-search{
+    font-size: 22px;
+    color: black;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 8px;
+}
+
+.searchbar{
+    height: 34px;
+    width: 388px;
+    border: none;
+}
+
+.searchbar:focus{
+    outline: none;
+}
+
+.card_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 200px;
+    padding-right: 200px;
+    width: 100%;
+}
+
+.card{
+    height: 240px;
+    width: 330px;
+    border: 1px rgb(180, 177, 177) solid;
+    border-radius: 15px;
+    margin-top: 30px;
+    overflow: hidden;
+    transition: all 0.2s linear;
+}
+
+.card img{
+    height: 70%;
+    width: 100%;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.tex{
+    font-size: 22px;
+    margin-left: 20px;
+    margin-top: 3px;
+    font-weight: normal;
+}
+
+.tex1{
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 2px;
+    font-weight: lighter;
+}
